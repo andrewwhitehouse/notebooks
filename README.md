@@ -7,7 +7,7 @@
 `cd notebooks`
 
 `docker run -d -p 8888:8888 -v $PWD:/home/jovyan/notebooks \
-                          --rm andrewwhitehouse/clojupyter-nodejs-docker:0.4.3`
+                           --rm andrewwhitehouse/clojupyter-nodejs-docker:0.4.3`
                           
 `docker logs <container id>` to get token
 
